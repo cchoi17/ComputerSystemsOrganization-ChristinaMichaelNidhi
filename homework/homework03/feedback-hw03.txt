@@ -57,7 +57,7 @@ Total possible points 37
 ========================================================
 
 TOTAL EARNED POINTS:
-   You earned 21/37 which is 52.50% which is not so great....
+   You earned 21/37 which is 56.76% which is not so great....
 
 ========================================================
 SPECIFIC COMMENTS/FEEDBACK:
@@ -70,3 +70,6 @@ flipped all the bits!
 
 Also don't forget to show your calculations ~ you would pick up significant
 points if you do that!  Make sure to do that on the quiz!
+
+CORRECTION: A MISTAKE IN MY SPREADSHEET INCORRECTLY REPORTED THE EVALUATION
+SCORE ~ THIS HAS BEEN CORRECTED AS OF 2022-09-29.  SORRY FOR THE INCONVENIENCE!
