@@ -1,0 +1,68 @@
+
+
+Evaluation Criteria ~ homework04
+CMSI 284 Section 01 Spring 2021
+=================================
+
+LOGIC DESIGN
+   Logic Question 1a         10/10
+   Logic Question 1b          5/ 5
+   Logic Question 2          10/10
+
+REGISTER OPERATIONS
+   Register clear even        1/ 2
+   Register set last 3        1/ 2
+   Reg./8 remainder           1/ 2
+   Reg. set to -1             1/ 2
+   Reg. invert 2 MSBs         1/ 2
+   Register computation       1/ 2
+
+STANLEY/PENGUIN ASSEMBLY
+   Q4 - program 1a           11/11
+   Q5 - program 1b           11/11
+   Q6 - GCD prog.             8/11
+   Q7 - swap frag             5/ 5
+   Q8 - jmp to addr           5/ 5
+
+REGISTER INVESTIGATION
+   Q9a - high level expl.     5/ 5
+   Q9b - Why?                 5/ 5
+
+
+Total possible points        90 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 81.0/ 90.0 which is  90.00% which is an A-minus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Nice work on this!  A couple of comments:
+
+problem number three, you weren't supposed to write entire programs for this
+just the logic instruction and the mask.  For example, 3-a is:
+
+AND 0xAAAAAAAA  which is the AND operation and the mask:
+    10101010101010101010101010101010
+
+problem six you need one more loop to jump to for the GCD calculation to
+work.
+
+Very good job!
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  95.00% of  5 points =  4.75 points
+   homework03 ~  56.76% of  5 points =  2.84 points
+   homework04 ~  90.00% of  5 points =  4.50 points
+                                total: 17.09 out of 20.0 =  85.45%
+                                which is a solid B for homework so far
+
+Since quizzes and tests are individual, that score is not added in to the
+group work.  Quiz one is worth 10%.
+
+Keep up the good work!
