@@ -1,0 +1,47 @@
+
+
+Evaluation Criteria ~ homework02
+CMSI 2210 Section 01 Fall 2022
+=================================
+
+BOOK PROBLEMS
+   Question 01    1 pt.
+   Question 02    1 pt.
+   Question 03    1 pt.
+   Question 04    1 pt.
+   Question 05    1 pt.
+   Question 06    1 pt.
+   Question 07    1 pt.
+   Question 08    1 pt.
+   Question 09    0 pt.
+   Question 10    1 pt.
+   Question 11    1 pt.
+   Question 12    1 pt.
+   Question 13    1 pt.
+   Question 14    1 pt.
+   Question 15    1 pt.
+   Question 16    1 pt.
+   Question 17    1 pt.
+   Question 18    1 pt.
+   Question 19    1 pt.
+   Question 20    1 pt.
+
+Total possible points 20
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 19/20 which is 95.0% which is a solid A
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+On #7, be careful to note that the compiler contains an assembler phase, and
+that part of the compiler produces machine code.  Because of this fact, the
+compiler is usually considered to generate machine code, since the assmebler
+phase is hidden.
+
+On #9, the command is "ls".  The "cd" command is to change directories, not
+list the contents.
+
+Otherwise, great job!  Keep up the good work on homework03!
