@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
  printf("Enter a number you would like the times table up to: ");
  scanf("%d", &number);
  
- for (int i = 1; i <= 10; i++) {
+ for (int i = 2; i <= number; i++) {
    for (int j = 2; j <= number; j++) {
      printf("%8d", i * j);
    }
@@ -16,3 +16,4 @@ int main(int argc, char *argv[]) {
  }
  return 0;
 }
+
