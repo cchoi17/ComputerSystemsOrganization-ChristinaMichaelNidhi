@@ -1,0 +1,66 @@
+
+
+Evaluation Criteria ~ homework05
+CMSI 2210 Section 01 Fall 2022
+=================================
+
+dec2bin
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]     10 points earned
+dec2hex
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      3 points earned
+   32-bit tests   [ 5 pts.]      2 points earned
+   64-bit tests   [ 5 pts.]      2 points earned
+timesTables
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]     10 points earned
+holdit
+   compiles       [ 5 pts.]      5 points earned
+   runs tests     [15 pts.]      8 points earned
+wordcount
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs tests     [10 pts.]      9 points earned
+
+             Total possible ~ 100 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned  84/100 which is 84.00% which is a solid B
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Everything compiles just fine!
+
+Everything runs pretty well.  Your dec2bin is fine.  Your dec2hex doesn't
+error check the parameter for 32 or 64 bit ~ a '63' goes right on by.  Also
+all I get out of it is the value '30' but it has the correct number of zero
+characters...
+
+Your holdit program doesn't show me the time, only zeros.
+
+The timesTables program doesn't error check the entry.
+
+Your wordcount program doesn't error check for an empty file.
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  95.00% of  5 points =  4.75 points
+   homework03 ~  56.76% of  5 points =  2.84 points
+   homework04 ~  90.00% of  5 points =  4.50 points
+   homework05 ~  84.00% of 10 points =  8.40 points
+                                total: 25.49 out of 30.00 =  84.97%
+                                which is also a solid B
+
+Your work on this looks very nice ~ the code is good quality!
+
+I highly recommend starting early on the last homework, it's going to take
+some time to get the 'nasm' code to work.  Just a heads-up!
+
