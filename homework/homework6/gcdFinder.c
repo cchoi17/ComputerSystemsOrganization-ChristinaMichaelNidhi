@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 
-void gcdFind(long int, long int);
+void gcdfind(long int, long int);
 
 int main()
 {
