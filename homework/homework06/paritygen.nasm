@@ -1,10 +1,11 @@
-            global  _paritygen
+;            global  _paritygen
+            global  _main
             extern  _printf
             extern  _scanf
             default rel
 
             section     .text
-
+_main:                              ; you GOTTA have an entry point!!
             mov     rax, [num]
             mov     rdx, rax
 

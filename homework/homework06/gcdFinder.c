@@ -16,7 +16,8 @@ int main()
             gcd = z;
     }
 
-    findGCD(x, y);
+//    findGCD(x, y);
+    gcdfind( x, y );            // I think this is what you mean?
     assert(x != gcd);
 
     printf("gcd of %ld and %ld is %ld\n", x, y, gcd);

@@ -1,0 +1,99 @@
+
+
+Evaluation Criteria ~ homework06
+CMSI 2210 Section 01 Fall 2022
+=================================
+
+FINDGCD.NASM
+   assembles            [5 pts.] 5 points earned
+   runs                 [5 pts.] 5 points earned
+   output correct       [2 pts.] 2 points earned
+GCDFINDER
+   nasm file assembles  [5 pts.] 4 points earned
+   gcdFinder.c compiles [5 pts.] 5 points earned
+   link both files      [5 pts.] 5 points earned
+   nasm returns value   [5 pts.] 5 points earned
+   output correct       [2 pts.] 2 points earned
+PARITYGEN
+   nasm assembles       [5 pts.] 5 points earned
+   nasm links           [5 pts.] 5 points earned
+   nasm runs            [5 pts.] 5 points earned
+   output correct       [2 pts.] 0 points earned
+WHICHENDISUP
+   compiles no errors   [5 pts.] 5 points earned
+   runs no errors       [5 pts.] 5 points earned
+MAKENBOC.C
+   compiles no errors   [5 pts.] 3 points earned
+   uses previous func.  [5 pts.] 5 points earned
+   tester compiles      [5 pts.] 5 points earned
+   tester runs          [5 pts.] 5 points earned
+   output correct       [2 pts.] 2 points earned
+MAKENBO.NASM
+   assembles            [5 pts.] 3 points earned
+   link both files      [5 pts.] 5 points earned
+   calls "C" function   [5 pts.] 5 points earned
+   output correct       [2 pts.] 0 points earned
+
+Total possible points 100
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 91.00/100.00 which is 91% which is an A-minus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+problem 1 findGCD.nasm: perfect!
+
+problem 2 gcdFinder.c and findGCD2.nasm: this one is close, but there was a
+linker error because you didn't include the entry point for the function in
+your nasm code.  I added it for you.  You also used "findgcd" as the name of
+the function being called in your test program instead of "gcdfind".  I also
+fixed that one and now everything is fine.
+
+problem 3 paritygen: same deal here ~ you gotta have an entry point.  This
+time you need "_main:" because the nasm is the main program.  I fixed that
+for you.  However, there is still a segmentation fault somewhere.  bummer.
+
+problem 4 whichEndIsUp: perfection!
+
+problem 5 makeNBOC.c and makeNBOtester.c: this is supposed to be two files,
+so that you can test your "C" function from "C" before you call it from the
+'nasm' code in the next problem.  You have it all in one file.  I have
+adapted by running this one as-is, then editing and commenting out the
+'main' function for use with nasm.  I also think you have the ordering a bit
+mixed up.  The 'nasm' program from #6 should be the main.  The "C" function
+here should be the function the 'nasm' program calls.  You have the 'nasm'
+code entry point as '_makeNBO' instead of '_main'.  You also have the "C"
+function called 'makeBigEndian64' but in the main you are calling function
+'makeNBO'.  Further, you are using "&&" which is a logical comparison, not
+a logical operation.  You want "&" instead.  I fixed that for you.  Now it
+runs, although the output is all run together since there's no newlines.
+
+problem 6 makeNBO.nasm and makeNBOC.c: parser instruction error at line 19
+on this one.  I fixed all that for you.  Short of time, I just fixed it and
+didn't comment it.  Now it builds, but when running there is no output since
+you never put any output statements.
+
+
+========================================================
+SEMESTER HOMEWORK TOTALS:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  95.00% of  5 points =  4.75 points
+   homework03 ~  56.76% of  5 points =  2.84 points
+   homework04 ~  90.00% of  5 points =  4.50 points
+   homework05 ~  84.00% of 10 points =  8.40 points
+   homework06 ~  91.00% of 15 points = 13.65 points
+                       semester total: 39.14 out of 45.00 = 86.97%
+                             which is almost a B-plus
+
+Great work!
+
+Not bad overall.... this is hard stuff and you have worked diligently at it
+and are to be commended for sticking with it.  I look forward to seeing you
+all in future courses.
+
+Have a great holiday break!
+

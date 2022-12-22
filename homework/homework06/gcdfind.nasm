@@ -4,7 +4,7 @@
             default rel
 
             section .text
-
+_gcdfind:                           ; I added this for you... need an entry point!
             push    rbx 
 
 getOne:     mov     rsi, val1
